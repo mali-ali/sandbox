@@ -1,0 +1,27 @@
+﻿body {
+    margin: 20px;
+    align-content: center;
+    padding: 5%;
+    
+}
+.jumbotron {
+    
+    color: #ffffff;
+    background-image:url("sunrise.jpg");
+    background-size:cover;
+}
+
+    .jumbotron a {
+        color: #ffffff;
+    }
+
+p a{
+    color:black;
+}
+
+p {
+    padding:5%;
+}
+
+
+
