@@ -10,7 +10,7 @@ Bootstrap is front-end open source toolkit that uses responsive grid system.
 
 I used the following sites to help me with my website
 
-[Get Bootstrap] (https://getbootstrap.com/)
+[Get Bootstrap](https://getbootstrap.com/)
 
-[W3Schools] (https://www.w3schools.com/bootstrap4/default.asp)
+[W3Schools](https://www.w3schools.com/bootstrap4/default.asp)
 
