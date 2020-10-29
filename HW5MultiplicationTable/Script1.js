@@ -14,24 +14,28 @@ function isvalid()
 		//Initial error message 
 		var message="";
 		 // Check if input a number and within range -50:50
-  if ((isNaN(start1) || start1 < -50 || start1 > 50)||
-		(isNaN(start2) || start2 < -50 || start2 > 50)||
-		(isNaN(end1) || end1 < -50 || end1 > 50)||	
-		(isNaN(end2) || end2 < -50 || end2 > 50)) 
+  if ((isNaN(start1) || start1 < -51 || start1 > 51)||
+		(isNaN(start2) || start2 < -51 || start2 > 51)||
+		(isNaN(end1) || end1 < -51 || end1 > 51)||	
+		(isNaN(end2) || end2 < -51 || end2 > 51)) 
 		{
 		//set message 
     message = "Invalid inputs";
+	document.getElementById("isvalid").style.color = "red";
+
  
 	} 
 	//check if start of range is less than end of a range and dissplay appropiate message
-	else if(start1 >=end2 || start2>=end2  ){
-	message = "Make sure starting number in a range is bigger than ending number";
+	else if(start1>end1 || start2>end2  ){
+	message = "Invalid input! either out of range or starting number is higher than ending number";
+	document.getElementById("isvalid").style.color = "red";
 
 	}
   
 	//If inputs are correct display ok message and call creattables()
   else {
     message = "Valid inputs";
+	document.getElementById("isvalid").style.color = "green";
 	createTables();
 
   }

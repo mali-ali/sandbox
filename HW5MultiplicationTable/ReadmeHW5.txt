@@ -5,4 +5,8 @@ to generate a multiplication table of the numbers of the ranges. I added avaldia
 I used examples from the lecture and https://www.w3schools.com/ to learn about JavaScript and bootstrap. 
 
 Links:
+CS.UML
 http://www.cs.uml.edu/~mali/HW5/HW5MultiplicationTable.html
+
+Github:
+https://mali-ali.github.io/sandbox/HW5MultiplicationTable/HW5MultiplicationTable.html

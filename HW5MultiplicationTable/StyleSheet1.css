@@ -19,7 +19,7 @@ tr > td:nth-child(1), tr:nth-child(1) > td {
     background: grey;
 }
 #isvalid{
-    color:red;
+    
 }
 
 th {
