@@ -1,0 +1,27 @@
+﻿body
+{
+   
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+td {
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: center;
+}
+
+tr > td:nth-child(1), tr:nth-child(1) > td {
+    background: grey;
+}
+#isvalid{
+    color:red;
+}
+
+th {
+    position: sticky;
+}
