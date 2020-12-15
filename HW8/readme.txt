@@ -2,6 +2,9 @@
 Assignment HW 8 (Scrabble game):
 
 Github:
+https://mali-ali.github.io/sandbox/HW8/HTMLPage1.html
+https://github.com/mali-ali/sandbox
+
 
 
 This assignment to implement a turn of Scrabble game to learn more about working with JQuery UI.
