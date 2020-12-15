@@ -1,0 +1,17 @@
+﻿body
+{
+    
+}
+
+.center_text_images {
+    background-image: url("graphics_data/scrabble-tile-holder-406774_640.png");
+    background-repeat: no-repeat;
+}
+.hold{
+    border: solid #ff0000;
+}
+
+.letter_rack_blocks{
+    
+    align-content:center;
+}
